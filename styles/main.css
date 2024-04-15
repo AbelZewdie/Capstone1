@@ -191,3 +191,12 @@ header {
   transition: 0.5s;
   cursor: pointer;
 }
+
+.banner .content .button a:nth-child(2) {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.banner .content .button a:hover:nth-child(2) {
+  background: var(--primary)
+}
