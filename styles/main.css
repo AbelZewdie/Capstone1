@@ -198,3 +198,12 @@ header {
 .banner .content .button a:hover:nth-child(2) {
   background: var(--primary);
 }
+
+.banner .carousel-box {
+  position: relative;
+  min-width: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+}
