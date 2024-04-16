@@ -170,3 +170,31 @@ header {
   color: #ffffff;
   margin: 10px 0 20px;
 }
+
+.banner .content .button {
+  position: relative;
+}
+
+.banner .content .button a {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  background: var(--primary);
+  color: #ffffff;
+  padding: 6px 20px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.5;
+  cursor: pointer;
+}
+
+.banner .content .button a:nth-child(2) {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.banner .content .button a:hover:nth-child(2) {
+  background: var(--primary);
+}
