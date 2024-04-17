@@ -97,7 +97,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: url('../images/Thor-Banner-2.jpg') no-repeat;
+  background: url('../images/bg-Thor.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   overflow: hidden;
