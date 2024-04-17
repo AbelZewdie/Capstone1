@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./Font-Awsome/css/font-awesome.min.css">
-  <link 
-  rel="stylesheet" 
-  href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="./styles/main.css">
   <title>Abel Cinema</title>
 </head>
+
 <body>
   <header>
     <a href="#" class="logo">Abel Cinema</a>
     <ul class="nav">
       <li>
-        <a href="#"><i class="fa fa-home" aria-hidden="true"></i></a>
+        <a href="in"><i class="fa fa-home" aria-hidden="true"></i></a>
       </li>
       <li><a href="login.html">Login</a></li>
       <li><a href="register.html">Register</a></li>
@@ -29,15 +29,13 @@
   </header>
   <div class="banner">
     <div class="content active">
-      <img src="./images/PNGImages/Thor.png" 
-      alt="" 
-      class="movie-title"
-      >
+      <img src="./images/PNGImages/Thor.png" alt="" class="movie-title">
       <h4>
         <span>2013</span><span><i>12+</i></span><span>1h 50min</span><span>Action</span>
       </h4>
       <p>
-        Thor, the Norse god of thunder, portrayed by Chris Hemsworth, who is stripped of his powers and banished from the mystical realm of Asgard by his father Odin (played by Anthony Hopkins) due to his reckless behavior.
+        Thor, the Norse god of thunder, portrayed by Chris Hemsworth, who is stripped of his powers and banished from
+        the mystical realm of Asgard by his father Odin (played by Anthony Hopkins) due to his reckless behavior.
       </p>
       <div class="button">
         <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Watch</a>
@@ -78,23 +76,18 @@
     </ul>
   </div>
   <div class="trailer">
-    <video 
-    src="./videos/TheGodFatherTrailer.mp4"
-      muted
-      controls="true"
-      autoplay="true">
+    <video src="./videos/TheGodFatherTrailer.mp4" muted controls="true" autoplay="true">
     </video>
-    <img class=close src="./images/PNGImages/Close.PNG" 
-    alt="" 
-    onclick="toggleVideo();">
+    <img class=close src="./images/PNGImages/Close.PNG" alt="" onclick="toggleVideo();">
   </div>
   <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="./js/script.js"></script>
   <script>
-    $(document).ready(function(){
-    $('.carousel').carousel();
-  });
+    $(document).ready(function () {
+      $('.carousel').carousel();
+    });
   </script>
 </body>
+
 </html>
