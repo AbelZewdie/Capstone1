@@ -215,7 +215,7 @@ header {
 .carousel {
   position: relative;
   height: 550px;
-  perspective: 1500;
+  perspective: 1500px;
 }
 
 .carousel .carousel-item {
@@ -276,4 +276,8 @@ header {
   letter-spacing: 1px;
   font-size: 25px;
   cursor: pointer;
+}
+
+.sci a:hover {
+  color: var(--primary);
 }
