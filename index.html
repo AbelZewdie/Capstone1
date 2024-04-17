@@ -45,7 +45,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla natus mol
     </div>
     <div class="carousel-box">
       <div class="carousel">
-        <div class="carousel-item">
+        <div class="carousel-item" >
           <img src="./images/Thor.jpg" alt="">
         </div>
         <div class="carousel-item">
@@ -62,7 +62,8 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla natus mol
         </div>
       </div>
     </div>
-    <a href="#" class="play"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Watch Trailer</a>
+    <a href="#" class="play" onclick="toggleVideo();">
+      <i class="fa fa-play-circle-o" aria-hidden="true"></i> Watch Trailer</a>
     <ul class="sci">
       <li>
         <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -76,11 +77,15 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla natus mol
     </ul>
   </div>
   <div class="trailer">
-    <video src="./videos/TheGodFatherTrailer.mp4">
+    <video 
+    src="./videos/TheGodFatherTrailer.mp4"
       muted
       controls="true"
-      autoplay="true"
+      autoplay="true">
     </video>
+    <img class=close src="./images/PNGImages/Close.PNG" 
+    alt="" 
+    onclick="toggleVideo();">
   </div>
   <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
