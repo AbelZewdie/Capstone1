@@ -107,6 +107,10 @@ body {
   font-weight: 600;
 }
 
+.wrapper .btn:hover {
+  color: var(--primary);
+}
+
 .wrapper .register-link {
   font-size: 14.5px;
   text-align: center;
@@ -150,6 +154,10 @@ header {
   letter-spacing: 1px;
   font-weight: 800;
   text-decoration: none;
+}
+
+.logo:hover {
+  color: var(--primary);
 }
 
 .nav {
