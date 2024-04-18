@@ -35,7 +35,6 @@ header {
 
 .logo:hover {
   color: var(--primary);
-  text-decoration: underline;
 }
 
 .nav {

@@ -12,17 +12,184 @@
 }
 
 body {
+  /* display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  min-height: 100vh;
+  color: #ffffff;
+  /* background: #081b29; */
+  background: url('../images/bg-TheGODFather.jpg') no-repeat;
+  padding-top: 6rem;
+  /* background: url('../images/Ragnar-HD-Wallpaper.jpg') no-repeat; */
+  /* background-size: cover;
+  background-position: center;
+  width: 100%; */
+}
+
+
+
+
+.home {
+  height: 100vh;
   display: flex;
+align-items: center;
+padding: 0 6.5%;
+/* left: -50px; */
+}
+
+.home-content {
+ max-width: 600px;
+}
+
+.home-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 0.3;
+}
+
+.home-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ff3700;
+}
+
+.home-content p {
+  font-size: 16px;
+  margin: 20px 0 40px;
+}
+
+.home-content .btn-box {
+  display: flex;
+  justify-content: space-between;
+  width: 345px;
+  height: 50px;
+  
+}
+
+.btn-box a {
+  position: relative;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background: seagreen;
-  padding-top: 6rem;
-  background: url('../images/Ragnar-HD-Wallpaper.jpg') no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
+  width: 150px;
+  height: 100%;
+  background: #ff3700;
+  border: 2px solid #ff3700;
+  border-radius: 8px;
+  font-size: 19px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  /* z-index related to the Login and signup button. */
+  z-index: 1;
+  /* Overflow to hide the curves in the buttons */
+  overflow: hidden;
+  transition: .5s;
 }
+
+.btn-box a:hover {
+  color: #ff3700;
+}
+
+.btn-box a:nth-child(2) {
+  background: transparent;
+  color: #ff3700;
+}
+
+.btn-box a:nth-child(2):hover {
+  color: #ffffff;
+}
+
+
+
+.btn-box a:nth-child(2)::before {
+  background: #ff3700;
+}
+
+
+
+.btn-box a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  /* Login and SignUp background needs to be deleted later. */
+  background: #081b29;
+  z-index: -1;
+  transition: .5s;
+}
+
+.btn-box a:hover::before {
+  width: 100%;
+
+}
+
+
+/* NEW LOGOS */
+
+/* .home-sci {
+  position: absolute;
+  bottom: 40px;
+  width: 170px;
+  background: #ffffff;
+  display: flex; */
+/* Justify-Content is the space between the logos */
+  /* justify-content: space-between; 
+} */
+
+/* Bottom Logos */
+/* .home-sci a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #ff3700;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #ff3700;
+  text-decoration: none;
+} */
+
+
+
+/* LOGO */
+.sci {
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.sci a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 25px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.sci a:hover {
+  color: var(--primary);
+}
+
+
+
+
+
+
+
+/* ANYTHING UNDER HERE IS FOR THE HEADER */
 
 .container {
   display: flex;
@@ -66,6 +233,7 @@ border-bottom: 2px solid #fff;
   color: #ffffff;
   font-size: 16px;
 }
+
 
 input::placeholder{
   color: #ffffff;
@@ -166,6 +334,7 @@ header {
   color: var(--primary);
   text-decoration: underline;
 }
+
 
 /* .search {
   position: relative;

@@ -136,7 +136,6 @@ body {
 
 
 
-
 header {
   position: absolute;
   top: 0;
@@ -159,7 +158,6 @@ header {
 
 .logo:hover {
   color: var(--primary);
-  text-decoration: underline;
 }
 
 .nav {
