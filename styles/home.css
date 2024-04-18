@@ -117,7 +117,7 @@ padding: 0 6.5%;
   width: 0;
   height: 100%;
   /* Login and SignUp background needs to be deleted later. */
-  background: #081b29;
+  background: black;
   z-index: -1;
   transition: .5s;
 }
@@ -302,7 +302,7 @@ header {
 
 .logo {
   font-size: 40px;
-  color: #ffffff;
+  color: black;
   letter-spacing: 1px;
   font-weight: 800;
   text-decoration: none;
