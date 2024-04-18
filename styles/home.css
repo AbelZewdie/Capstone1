@@ -14,12 +14,12 @@
 body {
   /* display: flex;
   justify-content: center;
-  /* align-items: center; */
+   align-items: center; */
   min-height: 100vh;
   color: #ffffff;
   /* background: #081b29; */
   background: url('../images/bg-TheGODFather.jpg') no-repeat;
-  padding-top: 6rem;
+  padding-top: 0rem;
   /* background: url('../images/Ragnar-HD-Wallpaper.jpg') no-repeat; */
   /* background-size: cover;
   background-position: center;
