@@ -18,3 +18,7 @@ My carousel store is designed for maximum engagement. It's not just a static dis
 ## Cart
 My cart/checkout is a seamless and efficient platform that makes renting or purchasing movies a breeze. With a user-friendly interface and intuitive design, it guides users through the checkout process with ease.
 <img alt="Cart" width=100% src="./images/AbelCinema/Cart.png">
+
+## Favorite code from this project
+It took me 1 hour and some change to fix two buttons on my home page. I was devistated and mad at first, yet at the end of the day I learned a lot and figured it out. Because of those reasons, this is my favorite code.
+<img alt="Favorite-code" width=100% src="./images/AbelCinema/Favorite-Code.png">
