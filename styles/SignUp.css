@@ -7,10 +7,12 @@
 
 }
 
+/* default color */
 :root {
   --primary: #ff3700;
 }
 
+/* body */
 body {
   display: flex;
   justify-content: center;
@@ -71,6 +73,7 @@ input::placeholder{
   color: #ffffff;
 }
 
+/* button */
 .btn{
   color: #000000;
   background: rgb(255, 255, 255);
@@ -119,7 +122,7 @@ input::placeholder{
 
 
 
-
+/* header */
 header {
   position: absolute;
   top: 0;
