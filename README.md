@@ -1,6 +1,6 @@
 # ABEL CINEMA | Your gateway to Cinematic Delight!
 ## Home Page
-From the moment vsitors land on my site, they're greeted with a visually stunning interface (TheGodFather) that beckons them to explore further.
+From the moment visitors land on my site, they're greeted with a visually stunning interface (TheGodFather) that beckons them to explore further.
 <img alt="Home Page" width=100% src="./images/AbelCinema/HomePage.png">
 
 ## Login
