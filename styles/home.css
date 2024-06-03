@@ -88,21 +88,23 @@ padding: 0 6.5%;
   transition: .5s;
 }
 
+/* the red hover */
 .btn-box a:hover {
   color: #ff3700;
 }
-
+/* the transparent */
 .btn-box a:nth-child(2) {
   background: transparent;
   color: #ff3700;
 }
 
+/* the font inside */
 .btn-box a:nth-child(2):hover {
   color: #ffffff;
 }
 
 
-
+/* the red color */
 .btn-box a:nth-child(2)::before {
   background: #ff3700;
 }
