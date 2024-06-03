@@ -16,6 +16,7 @@ function toggleVideo(){
 //   content.classList.remove('active');
 //   if (content.classList.contains(title)) {
 //     content.classList.add('active');
+/////////
 //   }
 // });
 // }
