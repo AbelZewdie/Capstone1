@@ -1,0 +1,15 @@
+/* Used this css to change the default action of dropdown menu from click to hover */
+/* body {
+  padding-top: 100px;
+} */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: #F8F9FA;
+}
+/* Removed the dropdown button with this css */
+.dropdown-toggle::after {
+  content: none;
+}
+.navbar {
+  padding-top: 28px;
+}

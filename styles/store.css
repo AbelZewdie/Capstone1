@@ -28,7 +28,7 @@ header {
 }
 /* logo */
 .logo {
-  font-size: 40px;
+  font-size: 30px;
   color: #ffffff;
   letter-spacing: 1px;
   font-weight: 800;
@@ -231,6 +231,7 @@ header {
 
 .carousel .carousel-item img {
   max-width: 235px;
+  height: 25rem;
   border-radius: 10px;
   transform: translateX(8px) translateY(-100px);
   object-fit: cover;
@@ -324,3 +325,4 @@ header {
   filter: invert(1);
   max-width: 30px;
 }
+
